@@ -1,0 +1,26 @@
+{
+  "name": "studentday",
+  "version": "1.0.0",
+  "description": "this is the final project from lps subject at puc minas",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -test",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrunoviegas/StudentDay.git"
+  },
+  "author": "Marcelo Bruno Viegas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbrunoviegas/StudentDay/issues"
+  },
+  "homepage": "https://github.com/mbrunoviegas/StudentDay#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
