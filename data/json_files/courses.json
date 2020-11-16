@@ -1,0 +1,25 @@
+{
+    "message": "Success",
+    "payload": [
+        {
+            "id": 1,
+            "name": "Ciência da Computação"
+        },
+        {
+            "id": 2,
+            "name": "Engenharia de Software"
+        },
+        {
+            "id": 3,
+            "name": "Sistemas de Informação"
+        },
+        {
+            "id": 4,
+            "name": "Jogos Digitais"
+        },
+        {
+            "id": 5,
+            "name": "Engenharia da Computação"
+        }
+    ]
+}

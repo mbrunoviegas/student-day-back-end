@@ -1,0 +1,89 @@
+{
+    "message": "Success",
+    "payload": [
+        {
+            "id": 1,
+            "tag": "LPS",
+            "name": "Laboratório de Projeto de Sistemas",
+            "coursesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 2,
+            "tag": "ES3",
+            "name": "Engenharia de Software 3",
+            "coursesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 3,
+            "tag": "PDI",
+            "name": "Processamento de Imagens",
+            "coursesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 4,
+            "tag": "CG",
+            "name": "Computação Gráfica",
+            "coursesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 5,
+            "tag": "CP",
+            "name": "Computação Paralela",
+            "coursesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 6,
+            "tag": "RC",
+            "name": "Redes de Computadores",
+            "cousesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 7,
+            "tag": "FI",
+            "name": "Filosofia",
+            "cousesIds": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ]
+}
