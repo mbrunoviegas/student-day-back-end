@@ -11,9 +11,9 @@ const tryToLogin = async (request, response) => {
         if (userId)
             return response.json(userId)
         else
-            return response.json({ "status": 404, "message": "Login ou ID inválidos" })
+            return response.status(404).json({ error: "Login ou ID inválidos" })
     } else {
-        return response.json({ "status": 400, "message": "ID inválido" })
+        return response.status(400).json({ error: "Informações inválidas" })
     }
 }
 

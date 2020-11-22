@@ -8,12 +8,12 @@ const getStudentProfile = async (request, response) => {
         const student = users.find(student => student.userId === request.query['userId'])
         if (student) {
             const profile = await profileService.getFullProfile(student)
-            return response.json({ "status": 200, "response": profile })
+            return response.json(profile)
         } else {
-            return response.json({ "status": 404, "message": "Usuario não encontrado" })
+            return response.status(404).json({ error: "Usuario não encontrado" })
         }
     } else {
-        return response.json({ "status": 400, "message": "Informe o ID do Usuário" })
+        return response.status(400).json({ error: "Informe o ID do Usuário" })
     }
 }
 
