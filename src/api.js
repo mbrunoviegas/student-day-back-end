@@ -6,6 +6,7 @@ const COLLEGES_PATH = path.join(__dirname, '../data/json_files', 'colleges.json'
 const COURSES_PATH = path.join(__dirname, '../data/json_files', 'courses.json')
 const SUBJECTS_PATH = path.join(__dirname, '../data/json_files', 'subjects.json')
 const ACTIVITIES_PATH = path.join(__dirname, '../data/json_files', 'activities.json')
+const GRADES_PATH = path.join(__dirname, '../data/json_files', 'grades.json')
 
 const readJsonFile = (path) => new Promise((resolve) => fs.readFile(path, 'utf8', (_, data) => resolve(data)))
   .then((data) => JSON.parse(data))

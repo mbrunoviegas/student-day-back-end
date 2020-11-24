@@ -1,15 +1,12 @@
-const activityFactory = require('../factories/ActivityFactory')
-
 const filterActivities = (activities, userId, subjects) => {
-    const userActivities = activities.map((activity) => {
-        if (activity.userId === userId)
-            activity
+    const userActivities = activities.filter((activity) => {
+        return activity.userId === userId
     })
 
-    console.log(userActivities)
     if (userActivities)
         return userActivities.map((activity) => {
-            return activityFactory.activityObject(activity, subjects.find((subject) => subject.id === activity.subject).name)
+            activity.subjectName = subjects.find((subject) => subject.id === activity.subject).name
+            return activity
         })
 }
 
