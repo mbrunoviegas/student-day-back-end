@@ -5,8 +5,8 @@ const gradesService = require('../services/GradesService')
 const getGrades = async (request, response) => {
     if (Object.keys(request.query).length > 0) {
         const grades = await api.grades()
-        console.log(grades)
-        const userGrades = gradesService.filterGrades(grades, request.query['userId'])
+        const subjects = await api.subjects()
+        const userGrades = gradesService.filterGrades(grades, request.query['userId'], subjects)
         if (userGrades)
             response.json(userGrades)
         else
