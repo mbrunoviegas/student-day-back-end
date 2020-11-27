@@ -16,4 +16,17 @@ const getGrades = async (request, response) => {
     }
 }
 
-module.exports = { getGrades }
+const insertGrade = async (request, response) => {
+    console.log("aqui")
+    const { grade } = request.body
+    console.log(grade)
+    if (grade) {
+        const grades = await api.grades()
+        grades.push(grade)
+        api.saveGrades(grades)
+        response.status(200).json("OK")
+    } else
+        response.status(400).json("Error ao inserir nova nota")
+}
+
+module.exports = { getGrades, insertGrade }

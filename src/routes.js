@@ -13,8 +13,12 @@ routes.get('/profile', profileController.getStudentProfile)
 routes.get('/colleges', collegesController.getColleges) 
 routes.get('/courses', coursesController.getCourses) 
 routes.get('/subjects', subjectsController.getSubjects) 
+
 routes.get('/activities', activitiesController.getActivities) 
+routes.post('/activities', activitiesController.insertActivity) 
+
 routes.get('/grades', gradesController.getGrades) 
+routes.post('/grades', gradesController.insertGrade) 
 
 
 module.exports = routes

@@ -17,4 +17,16 @@ const getActivities = async (request, response) => {
     }
 }
 
-module.exports = { getActivities }
+const insertActivity = async (request, response) => {
+    const { activity } = request.body
+    console.log(activity)
+    if (activity) {
+        const activities = await api.activities()
+        activities.push(activity)
+        api.saveActivities(activities)
+        response.status(200).json("OK")
+    } else
+        response.status(400).json("Error ao inserir nova atividade")
+}
+
+module.exports = { getActivities, insertActivity }

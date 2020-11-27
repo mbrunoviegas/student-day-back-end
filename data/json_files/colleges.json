@@ -1,16 +1,13 @@
-{
-    "message": "Success",
-    "payload": [
-        {
-            "id": 1,
-            "name": "PUC Minas",
-            "courses": [
-                1,
-                2,
-                3,
-                4,
-                5
-            ]
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "PUC Minas",
+        "courses": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+]

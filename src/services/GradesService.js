@@ -3,7 +3,7 @@ const { subjects } = require("../api")
 const filterBySubjects = (grades, subjects) => {
     const filteredBySubjects = subjects.map((subject) => {
         const gradesBySubject = grades.filter((grade) => grade.subject === subject.id)
-        return { "subject": subject.name, "activities": gradesBySubject }
+        return { "subject": subject.name, "grades": gradesBySubject }
     })
     return filteredBySubjects
 }

@@ -1,50 +1,47 @@
+[
     {
-        "message": "Success",
-        "payload": [
-            {
-                "id": 1801,
-                "name": "Marcelo Bruno",
-                "userId": "mbrunoviegas",
-                "password": 180124,
-                "collegeId": 1,
-                "courseId": 1,
-                "subjectsIds": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5
-                ]
-            },
-            {
-                "id": 7130,
-                "name": "João Pedro",
-                "userId": "jpsantos",
-                "password": 123456,
-                "collegeId": 1,
-                "courseId": 1,
-                "subjectsIds": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5
-                ]
-            },
-            {
-                "id": 2245,
-                "name": "Atílio Ferreira",
-                "userId": "asferreira",
-                "password": 123456,
-                "collegeId": 1,
-                "courseId": 1,
-                "subjectsIds": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5
-                ]
-            }
+        "id": 1801,
+        "name": "Marcelo Bruno",
+        "userId": "mbrunoviegas",
+        "password": 180124,
+        "collegeId": 1,
+        "courseId": 1,
+        "subjectsIds": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": 7130,
+        "name": "João Pedro",
+        "userId": "jpsantos",
+        "password": 123456,
+        "collegeId": 1,
+        "courseId": 1,
+        "subjectsIds": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": 2245,
+        "name": "Atílio Ferreira",
+        "userId": "asferreira",
+        "password": 123456,
+        "collegeId": 1,
+        "courseId": 1,
+        "subjectsIds": [
+            1,
+            2,
+            3,
+            4,
+            5
         ]
     }
+]
