@@ -24,7 +24,7 @@ const insertGrade = async (request, response) => {
         const grades = await api.grades()
         grades.push(grade)
         api.saveGrades(grades)
-        response.status(200).json("OK")
+        response.status(200).json("Nota lançada")
     } else
         response.status(400).json("Error ao inserir nova nota")
 }

@@ -24,7 +24,7 @@ const insertActivity = async (request, response) => {
         const activities = await api.activities()
         activities.push(activity)
         api.saveActivities(activities)
-        response.status(200).json("OK")
+        response.status(200).json("Atividade inserida")
     } else
         response.status(400).json("Error ao inserir nova atividade")
 }

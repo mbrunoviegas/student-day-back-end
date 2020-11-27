@@ -1,7 +1,7 @@
 const filterBySubjects = (activities, subjects) => {
     const filteredBySubjects = subjects.map((subject) => {
         const activityBySubject = activities.filter((activity) => activity.subject === subject.id)
-        return { "subject": subject.name, "activities": activityBySubject }
+        return { "subject": subject.name, "subjectId": subject.id, "activities": activityBySubject }
     })
     return filteredBySubjects
 }
